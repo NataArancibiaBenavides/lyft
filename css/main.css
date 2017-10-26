@@ -1,3 +1,297 @@
-/*
- * Estilos de tu proyecto
- */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+.container{
+	position: relative;
+	width: 100%;
+	height:760px;
+}
+  
+.container img {
+	position:absolute;
+	top:0px;
+	background-size:100%;
+	width:100%;
+	height:auto; 
+	
+}
+
+.menu{
+	position:fixed;
+	width: 100%;
+	height: 100px;
+	background-color: transparent;
+}
+.caja  {
+
+  width: 100%;
+  border: 1px solid  #fff;
+  background-color:transparent;
+  border-radius: 10px; 
+  padding: 0; 
+
+}
+nav.menu img{
+
+	position: fixed;
+	width: 65px;
+	height: 45px;
+	display:inline-flex;
+	position: absolute;
+	left: 85px;
+	margin-top:85px;
+	}
+
+
+	nav.menu ul{
+
+	background:transparent;
+	list-style: none;
+	padding: 0;
+	overflow: auto;
+	margin: 0;
+	line-height:40px;
+	left: 600px;
+	}
+	nav.menu li{
+		float:right;
+		left: 500px;
+		font-size: 20px;
+		color: #fff;
+		margin: 30px;
+		margin-top:80px;
+	}
+	
+	nav.menu a{
+	text-decoration: none;
+	display: block;
+	color:#fff; 
+}
+     nav.menu a:hover{
+	background:transparent;
+	color:#FF00BF;
+}
+ #formulario {
+
+  position: absolute;
+  top:150px;
+  margin-top:500px;
+  margin-left:9px;
+  left: 788px;	
+  width: 350px;
+  margin: 25px auto;
+
+}
+
+.registro {
+
+  float: left;
+  width: 450px;
+  padding: 10px;
+  background-color: white;  
+}
+div.registro{
+
+	padding-top: 30px;
+	padding-left: 100px;
+}
+
+div.regitro h3 {
+
+  font-size: 10px;
+  color:#352384;
+
+}
+
+.registro2{
+	display: inline-block;
+}
+
+.registro2 h2 a{
+	padding-left: 30px;
+	color:#352384;
+	font-size: 15px;
+
+}
+
+.registro2 h2 a:hover{
+
+	color:#FF00BF;
+	
+
+}
+div.registro p {
+	font-size: 8px;
+	margin:3px; 
+}
+
+button {
+
+	padding: 20px;
+	border-radius: 7px;
+	background:#FF00BF;
+	border: transparent;
+	color:#fff;
+	font-weight:500i; 
+}
+button {
+	font-size:15px; 
+}
+
+
+ .ingreso a:hover{
+ 	position: absolute;
+ 	left:100px;
+ 	top:100px;
+ 	display: block;
+    background:transparent;
+	color:#FF00BF;
+}
+
+[type=text] {
+
+  margin: 0 auto;
+  width: 80%;
+  border: 0;
+  top:100px;
+  border-bottom: 1px solid ;
+  height: 80px;
+  line-height: 45px;  
+  margin-bottom: 10px;
+  font-size: 1em;
+  color: rgba(0,0,0,.4);
+}
+ 
+[type='text']:focus {
+  outline: none;
+  border-color: #53CACE;
+}
+
+h1 {
+  color:#352384;
+  top: 30px;
+  left: 40px;
+  font-size:40px;
+
+}
+h3{
+  float:left;	
+  color:#352384;
+  top: 30px;
+  left: 40px;
+  font-size:15px;
+
+}
+
+p {
+
+  float: left;
+  color:#352384;
+  margin-top:100px; 
+  font-size:20;
+  margin: 50px ;
+}
+
+.info {
+
+	background:linear-gradient(#6B2087,#2B1E66);
+	position: relative;
+	top:0px;
+	width: 100%;
+	height:900px;
+
+}
+.info img{
+	position: absolute;
+	width: 550px;
+	height: 550px;
+	left: 800px;
+	top:20px;
+
+}
+
+.info ul {
+	position: absolute;
+	color: #fff;
+	display: block;
+	left: 160px;
+	top:50px;
+}
+.info li {
+	list-style: none;
+	color: #fff;
+	font-size:30px;
+	display:block;
+	margin-top:10px;
+	
+
+}
+.info li  p {
+	color: #fff;
+	font-size:18px;
+	margin-left:0px;
+	display: block;
+	
+}
+
+.info2{
+	position:relative;
+	background-color: #fff;
+	top:0px;
+	width: 100%;
+	height: 500px;
+}
+
+.info2 img {
+
+	position: absolute;
+	left: 450px;
+	background-size:auto;
+	}
+
+.info2 h3{
+
+	position: absolute;
+	font-size:15px;
+	top:130px;
+	margin-bottom:5px; 
+	left: 50px;
+	color:#FF14C4;
+}
+
+.info2 h1{
+	position:absolute;
+	color:#333447;
+	font-size:30px;
+	left: 50px;
+	top:150px;
+}
+
+.info2 p{
+	position: relative;
+	color:#333447;
+	font-size:18px; 
+	top:170px;
+}
+
+.video {
+
+	position:relative;
+	background-color: #fff;
+	top:0px;
+	width: 100%;
+	height: 500px;
+}
+
+.video iframe {
+
+	padding: 0px;
+
+}
