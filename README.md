@@ -1,92 +1,19 @@
-# Lyft
 
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Maquetado web con HTML & CSS_
+# Retos del Codigo replicar parte de pagina web www.lyft.com
+#Objetivos
+##El Objetivo de este ejercicio fue maquetar una pagina Web
+##con indicaciones ya dadas.
 
-***
+##Se Utilizo Html y Css
+##En Html se estructuro con etiquetas comenzando con Header 
+##esta tiene una clase Container. 
+##Y esta a su vez  contiene img es decir imagenes  de ##el logo de lyft y la imagen de fondo .
+## luego de esto se utilizo la etiqueta nav para ##realizar el menú dentro de este hay una lista con ##las etiquetas ul y li.
+##Continuo con el id formulario conteniendo este la ##clase registro y registro2 y button para realizar  ## el boton de validacion de datos en el formulario.
+##En el archivo de Css se dio la forma de todo el ##color las posiciones el tamaño etc.
+##En la Etiqueta Section se encuentran la clase info , ##con una lista ul y li con informacion central de la ##pagina.
+##Se Crea otra etiqueta section para agregar tres ##videos en distintas alturas con estos video en el ##archvo CSS se posicionaron con Float left y rigth ##para organizarlos y visualizarlos unos a una al lado ##derecho otros al lado izquierdo.
+##Se Finalizo con la etiqueta footer la cual contiene ##varias clases dentro de div , la clase contenido   ## que es la que contiene todo el resto de datos.
 
-Para completar este reto, hemos creado este repositorio boilerplate (plantilla
-inicial) con todos los recursos que necesitas. Esto incluye imágenes y
-estructura de carpetas y archivos donde colocarás tu código.
 
-## Flujo de trabajo
 
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
-
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
-
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/lyft.git
-   ```
-
-## Objetivo
-
-El reto consiste en replicar el sitio de **Lyft**, este será el resultado
-a lograr:
-
-![Lyft Website](docs/fullpage.png)
-
-## Consideraciones
-
-* Encontrarás un archivo base `index.html` en el cual deberás escribir la
-  estructura de tu proyecto y enlazar tus archivos de estilos (CSS).
-
-* En la carpeta `css` tendrás un archivo base `main.css` donde agregarás los
-  estilos necesarios para tu proyecto:
-
-* Dentro de la carpeta `assets` se encuentra la carpeta `images` donde
-  encontrarás todas las imágenes necesarias para completar tu proyecto.
-
-* Deberás **actualizar el archivo `README.md`** explicando el contenido de tu
-  repositorio.
-
-* Esta web utiliza la tipografía `Montserrat`.
-
-* La paleta de colores puedes obtenerla inspeccionado el sitio original, pero
-  para ganar tiempo, puedes usar los siguientes:
-
-  - Botones, hover: `#FF00BF`
-  - Fondo de `footer`: `#333447`
-  - Título del formulario: `#352384`
-  - Texto del formulario: `#728099`
-  - Gradiente morado: `linear-gradient(#76278F, #2B1E66);`
-
-* Para el footer, deberás tomar en cuenta que tiene un hover y se ve como en la
-  siguiente imagen:
-
-  ![Lyft - Footer](docs/footer.gif)
-
-  Además, los íconos deberás obtenerlo de `Icomoon`.
-
-* Para este reto, encontrarás ciertas cosas que probablemente aun no has visto
-  en clase (formularios, videos de Youtube). No te preocupes, estamos seguros
-  que los afrontarás con éxito, de igual forma aquí unos tips:
-
-  - Estos son los videos de Youtube:
-    * https://www.youtube.com/watch?v=fLSmUWOYpKw
-    * https://www.youtube.com/watch?v=V7j8Aqxmbs8
-    * https://www.youtube.com/watch?v=xj2VWLV0xCU
-  - Para agregar los videos, averigua sobre la etiqueta `iframe`.
-  - Para el formulario, revisa las etiquetas como `form` e `input`.
-
-* Puedes ver el [sitio original](https://www.lyft.com/), sin embargo, su diseño
-  ya ha cambiado en ciertas partes, así que tu fuente de verdad es la imagen que
-  muestra el objetivo de este reto.
-
-  > Nota: El sitio original tiene ciertos efectos y funcionalidades que
-están fuera del alcance de este reto. Enfócate en obtener la maquetación
-lo más parecido posible, usando lo aprendido en clase ;)
-
-## A tener en cuenta
-
-Este reto será evaluado sobre lo siguiente:
-
-* Pixel perfect (replicar el diseño con exactitud)
-* Estructura de carpetas y archivos
-* Nombramiento de clases, id, etc
-* Indentación
-* Archivo `README.md` actualizado y correctamente redactado
-* Uso de comentarios para hacer tu código más legible
